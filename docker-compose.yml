@@ -26,6 +26,7 @@ volumes:
   my-datavolume:
   redis-data:
   esdata1:
+  platform: linux/armv7 
 services:
   db:
     image: mariadb:10.5.4-focal 
