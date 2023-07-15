@@ -28,9 +28,8 @@ volumes:
   esdata1:
   
 services:
-platform: linux/armv7
   db:
-    image: mariadb:10.5.4-focal 
+    image: yobasystems/ablpine-mariadb:arm32v7
     environment:
       - MYSQL_ROOT_PASSWORD=change_me
     ports:
