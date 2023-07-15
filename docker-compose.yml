@@ -48,7 +48,7 @@ services:
     volumes:
       - redis-data:/var/lib/redis:rw
   es:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.5
+    image: comworkio/elasticsearch:latest-arm
     ports:
       - "9200:9200"
       - "9300:9300"
