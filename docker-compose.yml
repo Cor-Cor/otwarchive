@@ -79,7 +79,7 @@ services:
     volumes:
       - .:/otwa
     ports:
-      - "5005:3000"
+      - "3000:3000"
     depends_on:
       - db
       - redis
