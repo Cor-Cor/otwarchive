@@ -29,7 +29,7 @@ volumes:
   
 services:
   db:
-    image: yobasystems/alpine-mariadb:arm32v7
+    image: linuxserver/mariadb:alpine
     environment:
       - MYSQL_ROOT_PASSWORD=change_me
     ports:
