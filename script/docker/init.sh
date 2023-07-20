@@ -9,7 +9,7 @@ cp -b config/docker/database.yml config/database.yml
 cp -b config/docker/redis.yml config/redis.yml
 cp -b config/docker/local.yml config/local.yml
 
-docker-compose up -d
+docker-compose up -d --skip-innodb-use-sys-malloc
 
 sleep 60
 
